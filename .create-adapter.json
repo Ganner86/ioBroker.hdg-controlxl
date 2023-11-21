@@ -1,0 +1,56 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "hdg-controlxl",
+	"title": "HDG Control XL",
+	"description": "Verbindung zu einer HDG Control XL Steuerung",
+	"keywords": [
+		"HDG",
+		"ControlXL",
+		"HDG-Bavaria"
+	],
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"custom"
+	],
+	"type": "climate-control",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "Test",
+			"label": "Testtitle",
+			"inputType": "text",
+			"defaultValue": "asdf"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "16",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking",
+		"devcontainer"
+	],
+	"authorName": "Ganner86",
+	"authorGithub": "Ganner86",
+	"authorEmail": "Ganner86@gmx.de",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "no",
+	"icon": {
+		"data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAIAAACxN37FAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkE5QUNBOTQ3QTE1QjExRTRBOUIyRUU1NjVCN0M1NzM0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkE5QUNBOTQ4QTE1QjExRTRBOUIyRUU1NjVCN0M1NzM0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTlBQ0E5NDVBMTVCMTFFNEE5QjJFRTU2NUI3QzU3MzQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTlBQ0E5NDZBMTVCMTFFNEE5QjJFRTU2NUI3QzU3MzQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4BHkumAAALFUlEQVR42uzd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",
+		"extension": "png"
+	},
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
